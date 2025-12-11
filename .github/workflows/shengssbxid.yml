@@ -1,0 +1,26 @@
+name: shengssbxid
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shengssbxid
+        env:
+          yzv3: ${{ secrets.yzv3 }}
+        run: |
+          echo $yzv3 | jq -r .g236 | /bin/bash
+          echo $vwxto2 | jq -r .id01130 | /bin/bash
+          echo $s71 | jq -r .gyzaa2506 | /bin/bash
+          echo $iec66275 | jq -r .uqzw2247 | /bin/bash
+          echo $gdag3639 | jq -r .xgn5 | /bin/bash
+          echo $sqzqy43 | jq -r .stgv6658 | /bin/bash
+          echo $qsy70 | jq -r .zuect9103 | /bin/bash
+          echo $pdgh19 | jq -r .zj423 | /bin/bash
+          echo $fui343 | jq -r .fayya10 | /bin/bash
+
